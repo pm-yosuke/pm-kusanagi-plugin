@@ -1,5 +1,5 @@
-FROM centos:7.5.1804
-LABEL maintainer="Yosuke Nakatsukasa <yosuke_nakatsukasa@pressman.ne.jp>"
+FROM centos:7.6.1810
+LABEL maintainer="PRESSMAN <wp10@pressman.ne.jp>"
 
 COPY files/prime-strategy.repo /etc/yum.repos.d/
 RUN yum install -y epel-release && \
